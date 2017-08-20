@@ -55,7 +55,30 @@
 		
 		
 	CREANDO LAS RUTAS DE NUESTRA APLICACIÓN
-	
+		
+		1. Creando el fichero "app.routes.ts" en el directorio "app"
+		
+		2. Codear lo siguiente: 
+			ng2-routes
+			ng2-import 
+		
+		3. Agregar "useHash:true"
+		
+		4. Importar APP_ROUTING en el fichero "app.module.ts"
+		
+		5. Agregar APP_ROUTING en "imports"
+		
+		6. Agregar el siguiente tag en la vista del componente "app"
+			<router-outlet></router-outlet>
+		
+		7. Agregar a la vista del componente navbar el
+			routerLink y routerLinkActive
+		
+		
+		
+		
+		
+		
 		
 	
 	
