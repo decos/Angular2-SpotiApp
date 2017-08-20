@@ -105,12 +105,46 @@
 		2. Codear la clase SpotifyService
 		
 	
+	ACTUALIZACIÓN Token para uso de servicios Spotify
+		
+		1. Crear una cuenta en SpotifyDeveloper
+		
+		2. Crear una Aplicación
+		
+		3. Revisar la siguiente guía:
+			https://developer.spotify.com/web-api/authorization-guide/
+			(Client Credentials Flow) ya que sera lo que usemos
+			
+		4. Para obtener un TOKEN debemos usar la aplicación creada
+		
+			PETICION:
+			
+			POST https://accounts.spotify.com/api/token
+			x-www-form-urlencoded
+			
+			Authorization:Basic ZWM0NzI4NzE4MDZjNDI3ZTkyNDhlYTQ0ZGZiMWYyMmY6MjU3NTBiZDUwMDk1NDY2YWE3OTY2NWVlNjI3ZTY3MGY=
+			
+			client_id:ec472871806c427e9248ea44dfb1f22f
+			client_secret:25750bd50095466aa79665ee627e670f
+			grant_type:client_credentials
+			
+			RESULTADO: 
+			
+			{
+				"access_token": "BQCfsKMqglck1vdEritK5WlTzmZNemGZtVM38oaQXzsaIkuGYy-RAXPUjYvE33ERERal6TQ_0_jzuiFoPkgc0Q",
+				"token_type": "Bearer",
+				"expires_in": 3600
+			}
+					
+		5. Hacer uso del TOKEN, ejemplo
+			
+			PETICION:
+			GET https://api.spotify.com/v1/tracks/3n3Ppam7vgaVa1iaRUc9Lp
+			
+			Authorization:Bearer  BQCfsKMqglck1vdEritK5WlTzmZNemGZtVM38oaQXzsaIkuGYy-RAXPUjYvE33ERERal6TQ_0_jzuiFoPkgc0Q
 	
-	
-	
-	
-	
-	
+		6. Importar HEADERS al servicio y modificar la lógica en el método getArtistas()
+
 	
 	
 	
