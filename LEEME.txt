@@ -74,8 +74,28 @@
 		7. Agregar a la vista del componente navbar el
 			routerLink y routerLinkActive
 		
+	
+	BOOTSTRAP 4: SLIDESHOW Y DETALLES EN EL HomeComponent
+	
+		1. Copiar carousel (bootstrap) con barritas en la vista "home"
+			https://v4-alpha.getbootstrap.com/components/carousel/
 		
+		2. Eliminar la etiqueta "container" de la vista "app"
 		
+		- Se agregaron comentarios en src\styles.css
+		
+		3. Agregar en la vista del componente "home" lo siguiente:
+			- style="background-image:url('assets/img/ed-sheeran.jpg')"
+			- <div class="container">
+			
+		4. Para que el contenedor no este pegado al Carousel, añadir:
+			<div class="container top-30">
+			
+			Y añadir un nuevo estilo en "styles.css"
+			
+			.top-30 {
+			  margin-top: 30px;
+			}
 		
 		
 		

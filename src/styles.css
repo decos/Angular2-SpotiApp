@@ -8,6 +8,10 @@ hr{
   border-color: white;
 }
 
+.top-30 {
+  margin-top: 30px;
+}
+
 .jumbotron{
   background-color: #171717;
 }
@@ -17,17 +21,17 @@ hr{
 }
 
 .carousel-item{
-  width: 100%;
-  height: 500px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  width: 100%; /* Ancho de cada uno de los items del carousel sea del 100%  */
+  height: 500px; /* El alto sea de 500px */
+  -webkit-background-size: cover; /* Para evitar la distorsion (fondo) */
+  -moz-background-size: cover; /* Para evitar la distorsion (fondo) */
+  -o-background-size: cover; /* Para evitar la distorsion (fondo) */
+  background-size: cover; /* Para evitar la distorsion (fondo) */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { /* Cuando la resolucion sea menor a 600 */
   .carousel-item {
-    height: 280px;
+    height: 280px; /* El height del Carousel va ser de 280 */
   }
 }
 
