@@ -97,8 +97,12 @@
 			  margin-top: 30px;
 			}
 		
+	
+	HTTP - SERVICE: CONECTÁNDONOS A SPOTIFY
+		1. Crear el directorio "services" y ejecutar en consola lo sgte:
+			ng g s services/spotify
 		
-		
+		2. Codear la clase SpotifyService
 		
 	
 	
