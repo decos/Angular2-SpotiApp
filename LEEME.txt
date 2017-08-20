@@ -1,0 +1,78 @@
+4. APLICACIÓN #2: SpotiApp
+
+	INICIANDO EL PROYECTO
+		- Recursos: 
+			https://developer.spotify.com/
+			
+		- Algunos servicios requieren autenticación, los que usaremos no
+			https://developer.spotify.com/web-api/console/
+			
+		- Search for an Item:
+			https://developer.spotify.com/web-api/console/get-search-item/
+			
+		- Crear el proyecto 
+			ng new SpotiApp
+			ng serve
+			
+		1. Ir a la pagina de Bootstrap
+			https://v4-alpha.getbootstrap.com/
+			
+		2. Copiar el CDN en el index.html del proyecto
+		
+		3. Crear el directorio "components" dentro del directorio "app"
+		
+		4. Crear el componente "home" por la consola
+			ng g c components/home
+			
+			- Quitar el estilo y el spec, modificar .ts
+			
+		5. Crear el componente "search" por la consola
+			ng g c components/search
+		
+			- Quitar el estilo y el spec, modificar .ts
+		
+		6. Realizar dos configuraciones en el "tsconfig.json" para que compile el proyecto más rápido
+			
+			"exclude": [
+				"../node_modules"
+			],
+			"compileOnSave": false,
+		
+		7. Crear el directorio "shared" dentro del directorio "components"
+		
+		8. Crear el componente navbar
+			ng g c components/shared/navbar
+			
+		9. Agregar lo siguiente a la vista del componente "navbar"
+			https://v4-alpha.getbootstrap.com/components/navbar/
+		
+			MODIFICAR:
+			<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
+			
+		10. Agregar en "assets" el directorio "img" de los recursos del proyecto
+		
+		11. Reemplazar en estilo "src\styles.css" con el estilo de los recursos del proyecto
+		
+		
+	CREANDO LAS RUTAS DE NUESTRA APLICACIÓN
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
