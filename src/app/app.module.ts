@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 //Importar HttpModule
 import { HttpModule } from '@angular/http';
+//Importar FormsModule
+import { FormsModule  } from '@angular/forms';
 
 //Importar rutas
 import { APP_ROUTING } from './app.routes';
@@ -24,6 +26,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpModule,
     APP_ROUTING
   ],

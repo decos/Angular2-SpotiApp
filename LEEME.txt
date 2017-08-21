@@ -165,9 +165,28 @@
 			src\app\services\spotify.service.ts
 	
 	
+	ngModel: UTILIZANDO NUESTRO SERVICIO CON UNA VARIABLE
 	
+		- Cuando se utiliza el ngModel, el valor del atributo "name" del input debe ser igual al valor del ngModel
+		
+		NOTACIÓN: [()]
+			() : llamado de eventos
+			[] : recibir cosas que vienen
+			
+			Emitir y escuchar desde el componente
+			
+		1. Importar "FormsModule" en el modulo "app" y agregarlo a "imports"
+		
+		2. Codear la vista del componente "search"
+			src\app\components\search\search.component.html
+			
+			- Para cuando la gente presione o suelte la tecla disparara esta función: (keyup)="buscarArtista()"
+			
+		3. Modificar observable de el servicio "SpotifyService"
+			src\app\services\spotify.service.ts
 	
-	
+		4. Crear función "buscarArtista" en la lógica del componente	
+			src\app\components\search\search.component.ts
 		
 		
 		

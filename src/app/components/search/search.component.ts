@@ -9,17 +9,24 @@ import {SpotifyService} from '../../services/spotify.service';
 })
 export class SearchComponent implements OnInit {
 
+  //Declarar variable
+  termino:string ="";
+
   constructor( private _spotifyService:SpotifyService) { }
 
   ngOnInit() {
     //LLama al observable pero no escuchar la respuesta del observavle
     //Para esto necesitamos suscribirnos
     //this._spotifyService.getArtistas("metallica").subscribe();
-    this._spotifyService.getArtistas("metallica").subscribe(data => {
+    /*this._spotifyService.getArtistas("metallica").subscribe(data => {
       console.log("ESTO ES DEL SearchComponent");
       console.log(data);
-    });
+    });*/
+  }
 
+  buscarArtista(){
+    //console.log(this.termino);
+    this._spotifyService.getArtistas( this.termino ).subscribe(); 
   }
 
 }
