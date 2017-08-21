@@ -145,8 +145,24 @@
 	
 		6. Importar HEADERS al servicio y modificar la lógica en el método getArtistas()
 
-	
-	
+		
+	SUSCRIBIENDONOS A NUESTRO OBSERVABLE
+		
+		1. Importar el servicio creado en el modulo "app" y agregarlo a Providers
+		
+		2. Importar "HttpModule" en el modulo "app" y agregarlo a "imports"
+		
+		3. Importar "SpotifyService" en el siguiente archivo
+			src\app\components\search\search.component.ts
+			
+		4. Agregar al constructor un parametro de tipo "SpotifyService"
+			src\app\components\search\search.component.ts
+		
+		4. Realizamos una prueba codeando el metodo "ngOnInit"
+			src\app\components\search\search.component.ts
+		
+		5. Modificamos el Observable del Servicio
+			src\app\services\spotify.service.ts
 	
 	
 	
