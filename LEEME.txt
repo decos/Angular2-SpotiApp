@@ -267,6 +267,21 @@
 			  height: 50px;
 			}
 		
+	
+	WIDGETS DE SPOTIFY 
+	
+		Recursos:
+			https://developer.spotify.com/technologies/widgets/
+			
+		1. Usaremos el siguiente:
+			Single track, compact (default)
+	
+		2. Agregamos el PIPE "Domseguro" de la clase pasada
+	
+		NOMENCLATURA []
+			Esto lo va manejar angular
+			
+		3. Usar el PIPE en la vista del componente "artista"
 		
 		
 		
