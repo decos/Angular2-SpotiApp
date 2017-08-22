@@ -245,8 +245,13 @@
 		10. Mostramos en el html de "artista" el string usando el pipe "json"
 		
 		
+	SERVICIO: TOP-TRACKS
 		
-		
+		1. Crear el servicio "getTop"
+			src\app\services\spotify.service.ts
+			
+		2. Subscribir el servicio "getTop"
+			src\app\components\artista\artista.component.ts
 		
 		
 		
