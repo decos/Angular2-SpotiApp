@@ -214,8 +214,48 @@
 		5. Centrar el texto		
 			text-center
 			
+	
+	PÁGINA DEL ARTISTA, NUEVA RUTA, PARÁMETRO POR URL Y SERVICIO
+	
+		1. Crear un nuevo componente llamado "artista"
+			ng g c components/artista
 			
+		2. Crear una nueva ruta en "app.routes"
+			- El artista debe recibir un "id"
+				{ path: 'artista/:id', component: ArtistaComponent },
+				
+		3. Agregar la lógica del componente "artista"
+				
+		4. Agregar la clase puntero al div de la imagen en la vista del componente "search"
+		
+			-Quiero que me redireccione a /artista/id
 			
+		5. Agregamos un nuevo servicio llamado "getArtista" para obtener la información del artista
+			
+		6. Importamos el servicio en el componente "artista"
+		
+		7. Suscribimos el servicio "getArtista" desde  el componente "artista"
+		
+		8. Codeamos para que el servicio devuelva el json
+			src\app\services\spotify.service.ts
+			
+		9. Codeamos para asignar ese json a una variable "artista"
+			src\app\components\artista\artista.component.ts
+			
+		10. Mostramos en el html de "artista" el string usando el pipe "json"
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 			
 			
 			
