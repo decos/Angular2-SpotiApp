@@ -189,6 +189,40 @@
 			src\app\components\search\search.component.ts
 		
 		
+	VERIFICACIÓN DE IMAGEN Y PIPE PARA MANEJAR LAS IMÁGENES
+	
+		1. Modificar el contenido del siguiente div 
+			<div class="col-md-9">
+			
+			- Verificar si el URL existe (?)
+				artista.images[1]?.url
 		
+		2. Crear el directorio "pipes" y añadir un "pipe"
+			ng g p pipes/sinfoto
+			
+			- Codear lógica del pipe 
+			- El pipe se utilizara con el nombre "sinfoto"
+			- No necesitan introducirse en otra declaracion solo en el modulo
+			
+		3. Introducir el pipe en la vista
 		
+		4. Colocar el nombre del artista
+			<p>
+				{{ artista.name }}
+			</p>
 		
+		5. Centrar el texto		
+			text-center
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
